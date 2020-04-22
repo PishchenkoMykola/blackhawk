@@ -1,4 +1,4 @@
-git config --global user.Pishchenkomykola
+git config --global user.PishchenkoMykola
 git config --global user.email oberstleut@gmail.com
 git init
 git status
