@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-  </head>
+</head>
+<Body>
   <h1>Homework#2</h1>
-  <table border="1">
+  <table border="7">
     <th>Имя</th>
     <th>Фамилия</th>
     <th>Телефон</th>
@@ -36,20 +37,17 @@
       <th>Murmurkakrasotulka@love.ru</th>
     </tr>
   </table>
-  <body>
+  <p>
+ 
     <p>Choose a language:</p>
-    <input type="checkbox" id="uk" />
-    <label for="uk">English</label><br />
-    <input type="checkbox" id="ru" />
-    <label for="ru">Русский</label><br />
-    <input type="checkbox" id="en" />
-    <label for="en">Українська</label><br />
-    <input type="submit" value="Send"
-  </body>
+    <input type="checkbox" name="option1" value="" >English<Br>
+      <input type="checkbox" name="option2" value="">Русский<br >
+      <input type="checkbox" name="option3" value="">Українска <Br>
+      <input type="submit" value="Send"
+  </p>
   
 <p>
-<body>
-<form name="f1" method="get" action="enter_data.php">
+<form name="f1" method="get" action="">
 <input name="link" type="hidden" value="index.php" />
 Логин: <br />
 <input name="login" type="text" size="25" maxlength="30" value="Вася" /> <br />
@@ -58,8 +56,24 @@
 <input name="remember" type="checkbox" value="yes" /> Запомнить <br />
 <input type="submit" name="enter" value="Вход" />
 </form>
-</body>
 </p>
-</html></body>
+<H2>Какой ваш пол?</H2>
+<p>
+  <input type="checkbox" name="option1" value="" checked>M<Br>
+    <input type="checkbox" name="option2" value="">Ж<Br>
+    <input type="checkbox" name="option3" value="">Не определился <Br>
+</p>
+<form action="">
+    <p><textarea name="comment" readonly>Напишите ваш вопрос</textarea></p>
+ </form>
+  <h3>Из какого вы города ?</h3>
+ <select>
+     <option >Харьков</option> 
+     <option disabled >Львов</option> 
+     <option disabled>Киев</option> 
+     <option disabled>Одесса</option> 
+ </select>
+
+</body>
 </html>
-</head>
+
