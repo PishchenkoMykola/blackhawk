@@ -40,9 +40,9 @@
   <p>
  
     <p>Choose a language:</p>
-    <input type="checkbox" name="option1" value="" >English<Br>
-      <input type="checkbox" name="option2" value="">Русский<br >
-      <input type="checkbox" name="option3" value="">Українска <Br>
+    <input type="checkbox" name="option1" value="yes" >English<br>
+      <input type="checkbox" name="option2" value="yes">Русский<br>
+      <input type="checkbox" name="option3" value="yes">Українска <br>
       <input type="submit" value="Send"
   </p>
   
@@ -50,7 +50,7 @@
 <form name="f1" method="get" action="">
 <input name="link" type="hidden" value="index.php" />
 Логин: <br />
-<input name="login" type="text" size="25" maxlength="30" value="Вася" /> <br />
+<input name="login" type="text" size="25" maxlength="30" value="" /> <br />
 Пароль: <br />
 <input name="pd" type="password" size="25" maxlength="30" value="" /> <br />
 <input name="remember" type="checkbox" value="yes" /> Запомнить <br />
@@ -59,20 +59,29 @@
 </p>
 <H2>Какой ваш пол?</H2>
 <p>
-  <input type="radio" name="option1" value="" checked>M
-    <input type="radio" name="option2" value="">Ж
-    <input type="radio" name="option3" value="">Не определился 
+  <label><input type="radio" name="gender" value="male" checked>M</label>
+</p>
+   <p> <label><input type="radio" name="gender" value="female">Ж</label>
+  </p>
+   <p> 
+     <label><input type="radio" name="gender" value="transgender">Не определился</label> 
 </p>
 <form action="">
-    <p><textarea name="comment" readonly>Напишите ваш вопрос</textarea></p>
+    <p>
+      <textarea name="comment" readonly>Напишите ваш вопрос</textarea>
+    </p>
  </form>
   <h3>Из какого вы города ?</h3>
- <select>
-     <option >Харьков</option> 
-     <option disabled >Львов</option> 
-     <option disabled>Киев</option> 
-     <option disabled>Одесса</option> 
- </select>
+  <select class="transparent" name="city">
+    <option value="choose a city" selected disabled
+      >Выберите город</option>
+    >
+    <option value="lviv">Харьков</option>
+    <option value="kyiv">Львов</option>
+    <option value="dnipro">Киев</option>
+    <option value="kharkiv">Одесса</option>
+    <option value="odessa">Чоп</option>
+  </select>
 
 </body>
 </html>
