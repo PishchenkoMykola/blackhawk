@@ -202,10 +202,20 @@ th.collferst {
 
 th.collsecond {
   text-align: center;
-  padding-right: 225px;
+  padding-right: 230px;
+}
+.collsecond {
+  text-align: center;
 }
 
 th.colltherd {
   text-align: center;
   padding-left: 230px;
+}
+
+.colltherd {
+  text-align: right;
+}
+.seconstablespan {
+  padding: 5px;
 }
