@@ -3,15 +3,16 @@
   width: 800px;
   height: 250px;
   background: #2c2c2c;
-  border: 1px solid #4d4d4d;
-  border-radius: 8px;
+  border: 1px solid #3f3f3f;
+  border-radius: 5px;
   margin: 0 auto;
   margin-bottom: 40px;
   border-spacing: 0;
+  overflow: hidden;
   font-size: 14px;
 }
 .table_dark th {
-  border-bottom: 1px solid #4d4d4d;
+  border-bottom: 1px solid #3f3f3f;
   text-align: left;
   color: aliceblue;
   padding: 15px 10px;
@@ -20,8 +21,7 @@
 .table_dark td {
   color: rgb(180, 187, 194);
   color: #cad4d6;
-  border-top: 1px solid rgb(146, 146, 146);
-  
+  border-bottom: 1px solid rgb(146, 146, 146);
   padding: 7px 17px;
   font-size: 12;
 }
@@ -39,7 +39,6 @@
   margin: 0 auto;
   margin-bottom: 40px;
   border-spacing: 0;
-
   font-size: 14px;
 }
 .table_second th {
@@ -53,7 +52,6 @@
   color: rgb(180, 187, 194);
   color: #cad4d6;
   border-top: 1px solid rgb(146, 146, 146);
- 
   padding: 7px 17px;
   font-size: 12;
 }
@@ -71,11 +69,12 @@
   margin: 0 auto;
   margin-bottom: 40px;
   border-spacing: 0;
-
+  overflow: hidden;
   font-size: 14px;
 }
 .table_third th {
   border-bottom: 1px solid #3f3f3f;
+
   text-align: left;
   color: aliceblue;
   padding: 15px 10px;
@@ -85,20 +84,18 @@
   color: rgb(180, 187, 194);
   color: #cad4d6;
   border-bottom: 1px solid rgb(146, 146, 146);
-  
   padding: 7px 17px;
   font-size: 12;
 }
 
-
 .table_third tr:hover td {
   text-decoration: underline;
 }
-h1 { text-align: center;
+h1 {
+  text-align: center;
   color: white;
   margin-bottom: 20px;
- font-style: oblique;
- 
+  font-style: oblique;
 }
 
 /* для элемента input c type="checkbox" */
@@ -165,20 +162,23 @@ h1 { text-align: center;
 }
 
 body {
-  
   background-color: #2c2c2c;
   padding: 40px 50px;
 }
-* {box-sizing: border-box;}
+* {
+  box-sizing: border-box;
+}
 form {
   position: relative;
-  width: 200px;
+  width: 280px;
   margin: auto;
   background: rgb(65, 66, 66);
   border: 1px solid #ecece7;
   border-radius: 15px;
+  margin-left: 17%;
 }
-input, button {
+input,
+button {
   border: none;
   outline: none;
   background: transparent;
@@ -188,6 +188,24 @@ input {
   height: 60px;
   padding-left: 15px;
 }
-.rdots {text-align: right }
+.rdots {
+  text-align: right;
+}
 
-form  {margin-left: 47%}
+th.collferst {
+  text-align: center;
+  padding-right: 200px;
+}
+.collferst {
+  text-align: center;
+}
+
+th.collsecond {
+  text-align: center;
+  padding-right: 225px;
+}
+
+th.colltherd {
+  text-align: center;
+  padding-left: 230px;
+}
