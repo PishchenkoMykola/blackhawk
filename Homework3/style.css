@@ -42,14 +42,7 @@ h1 {
 /
     border-bottom: 1px solid rgb(180, 187, 194);
 }  
-/*Тут снова странный человек делает лишние жесты. Зачем нам тело таблицы?*/
- /*
-  tbody tr:hover {
-    background-color:  rgb(49, 49, 49);
-  }
- */ 
- /*мы можем сделать проще применить ко всем строкам которые являются дочерними
- к таблицам имеющие класс tableStyleDark*/
+
 .tableStyleDark tr:hover {
     background-color:  rgb(49, 49, 49);
   }
