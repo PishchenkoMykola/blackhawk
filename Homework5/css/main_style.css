@@ -1,0 +1,373 @@
+
+body{
+}
+/*
+*****************
+***************** 
+***  header   ***
+*****************
+***************** 
+*/
+header{
+  display: flex;
+  width:100%;
+  height: 500px;
+  background:#F3656F;
+}
+/*
+**********************
+Left block header   **
+**********************
+*/
+.header_content_left{
+  width: 445px;
+  flex-shrink: 0;
+  height: 400px;
+  margin: 94px 0px 0px 165px;
+}
+.header_title{
+  margin-top: 27px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 43px;
+  
+  color: #FFFFFF;
+}
+.header_content{
+  height: 64px;
+  margin: 47px 0px 0px 1px;
+  padding-right: 5px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 140%;
+  word-wrap: break-word;
+  /* or 20px */
+  text-align: justify;
+  
+  color: #FFFFFF;
+}
+.header_icon{
+  display:flex;
+  margin-top: 40px;
+  align-items: center;
+}
+.header_icon img{
+  margin-right: 21px;
+}
+.header_icon img:nth-child(1){
+  width: 32px;
+  height: 32px;  
+}
+.header_icon img:nth-child(2){
+  width: 32px;
+  height: 32px;  
+}
+.header_icon img:nth-child(3){
+  width: 24px;
+  height: 24px;  
+}
+/*
+*********************
+right block header **
+*********************
+*/
+.header_content_right{
+  display: flex;
+  align-items: center;
+  width:100%;
+}
+.figure{
+  position: relative;
+  width: 445px;
+  height: 311px;
+  margin-left:auto;
+  margin-right: 260px;
+}
+.figure img{
+  position: absolute;
+  z-index: 2;
+}
+.figure div{
+  position: absolute;
+}
+.figure div img{
+  height: 267px;
+}
+.left_fon_img{
+  opacity: 0.5;
+  top: 22px; 
+  left: -44px;
+  z-index: 1;
+}
+.right_fon_img{
+  opacity: 0.5;
+  top: 22px; 
+  left: 106px;
+  z-index: 1;
+
+}
+/*
+***************
+***************
+**   main    **
+***************
+***************
+*/
+main{
+  display: flex;
+  min-height: 500px;
+}
+.main_content{
+  width:50%;
+}
+.main_content_header{
+  width: 445px;
+  height: 97px;
+  margin: 117px 0px 0px 176px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 43px;
+  
+  color: #000000;
+}
+.main_content_content{
+  width: 434px;
+  height: 64px;
+  margin: 0px 0px 0px 176px; 
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 140%;
+  
+  /* or 20px */
+  text-align: justify;
+  
+  color: #000000;
+}
+
+
+.main_form{
+  width:50%;
+}
+.main_form_wrapper{
+	margin-top: 117px;
+  width:540px;
+  margin-left: auto;
+  margin-right: 165px;
+}
+.main_form_firs_last_name{
+  display: flex;
+}
+.main_form_firs_name, .main_form_last_name {
+	display: flex;
+	flex-grow: 1;
+}
+.main_form_firs_name input, .main_form_last_name input {
+	flex-grow: 1;
+  height: 60px;
+  padding-left: 31px;
+  border-radius: 6px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  
+  color: rgba(19, 39, 67, 0.5);
+}
+.main_form_last_name input {
+	margin-left: 30px;	
+}
+.main_form_phone_number, .main_form_select_service{
+	display: flex;
+  margin-top: 24px;
+}
+.main_form_phone_number input, .main_form_select_service select{
+	flex-grow: 1;
+  width: 570px;
+  height: 60px;
+  padding-left: 31px;
+  border-radius: 6px;
+  
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  
+  color: rgba(19, 39, 67, 0.5);
+}
+
+
+.main_form_submit{
+  margin-top: 27px;
+}
+.main_form_submit button{
+  width: 160px;
+  height: 50px;
+  background: #ED4C5C;
+  border: 1.5px solid #ED4C5C;
+  box-sizing: border-box;
+  border-radius: 6px;
+  
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  
+  /* identical to box height */
+  text-transform: uppercase;
+  
+  color: #FFFFFF;
+}
+/*
+***************
+***************
+**  footer   **
+***************
+***************
+*/
+footer{
+  display: flow-root;
+  height: 435px;
+  background: #FAFAFA;
+}
+/* INFO BLOCK */
+.footer_info_block{
+  display: flex;
+}
+.footer_adress{
+    width: 254px;
+    margin: 85px 0px 0px 166px;
+}
+.footer_adress_header{
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  
+  /* identical to box height */
+  text-align: center;
+  
+  color: #101010;
+}
+.footer_adress_content{
+  margin-top: 33px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 150%;
+  
+  /* or 18px */
+  
+  color: #101010;
+}
+/* SERVICES BLOCK */
+.footer_services{
+  width: 254px;
+  margin: 85px 0px 0px 30px;
+}
+
+.footer_services_header{
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  
+  /* identical to box height */
+  
+  color: #101010;
+}
+
+.footer_services_content{
+  margin-top: 28px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 160%;
+  
+  /* or 19px */
+  text-transform: capitalize;
+  
+  color: #000000;
+}
+/* Get In Touch BLOCK */
+.footer_git{
+  width: 122px;
+  margin: 85px 0px 0px 30px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  
+  color: #101010;
+}
+.footer_git_header{
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  
+  /* identical to box height */
+  text-align: center;
+  
+  color: #101010;
+}
+.footer_git_email{
+  margin-top: 33px;
+}
+.footer_git_tell{
+  margin-top: 11px;
+}
+.footer_git_social_networking{
+  margin-top: 20px;
+}
+.footer_git_social_networking img{
+  margin-right: 15px;
+}
+
+/* WE SSUPPORT BLOCK */
+.footer_support{
+  margin: 85px 0px 0px 165px;
+}
+.footer_support_header{
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  
+  /* identical to box height */
+  
+  color: #101010;
+}
+.footer_support_content{
+  margin-top: 33px;
+}
+/* COPYRIGHT */
+.copyright{
+  margin: 141px 0px 0px 161px;
+  
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  
+  color: #101010;
+  
+}
