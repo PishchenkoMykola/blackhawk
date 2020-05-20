@@ -20,7 +20,7 @@ Left block header   **
 **********************
 */
 .header_content_left{
-  width: 445px;
+  max-width:  445px;
   flex-shrink: 0;
   height: 400px;
   margin: 94px 0px 0px 165px;
@@ -237,7 +237,7 @@ main{
 */
 footer{
   display: flow-root;
-  height: 435px;
+  
   background: #FAFAFA;
 }
 /* INFO BLOCK */
@@ -256,7 +256,7 @@ footer{
   line-height: 22px;
   
   /* identical to box height */
-  text-align: center;
+  text-align: left;
   
   color: #101010;
 }
@@ -267,6 +267,8 @@ footer{
   font-weight: normal;
   font-size: 12px;
   line-height: 150%;
+  max-width: 148px;
+  text-align: left;
   
   /* or 18px */
   
