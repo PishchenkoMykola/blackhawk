@@ -298,7 +298,8 @@ footer{
   font-weight: normal;
   font-size: 12px;
   line-height: 160%;
-  
+  flex-direction: column;
+  display: flex;
   /* or 19px */
   text-transform: capitalize;
   
