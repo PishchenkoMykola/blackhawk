@@ -30,21 +30,19 @@ menu{
 	padding-top: 43px;
 	text-align: center;
 }
-menu button{
-	background: none;
-	border: none;
+menu > ul{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+  height: 632px;
+ 	text-decoration: none;
+	margin-top: 98px;
 }
-menu button:first-child{
-	padding-bottom: 33px;
+menu > ul > li:last-child{
+	margin-top: 159px;
 }
-menu button:nth-child(n + 2):not(:last-child){
-	margin-top: 61px;
-}
-menu button:nth-child(n + 5):not(:last-child){
-	margin-top: 59.5px;
-}
-menu button:last-child{
-	margin-top: 220.5px;
+menu > ul > li:hover{
+ background: #898989;
 }
 /*
 ********************************
