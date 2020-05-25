@@ -1,0 +1,537 @@
+@font-face{
+  font-family: "Baloo Bhai";
+  src: url("../fonts/BalooBhaijaan-Regular.woff2") format("woff2"),
+       url("../fonts/BalooBhaijaan-Regular.woff") format("woff");
+  font-weight: normal;
+}
+/* all wraper */
+.wraper{
+	display: flex;
+	padding: 24.02px 59.1px 24px 32.34px;
+}
+/*
+********************************
+** MENU BLOCK (only nav block) **
+********************************
+*/
+.menu_wraper{
+  flex: 0 0 132px;
+	position: sticky;
+	height: 200px;
+	top: 0;
+}
+menu{
+	display: flex;
+	flex-direction: column;
+	height: 809px;
+	border-radius: 24px;
+	background: #000000;
+	box-shadow: 20px 49.12px  60px rgba(0,0,0,0.3);
+	padding-top: 43px;
+	text-align: center;
+}
+menu button{
+	background: none;
+	border: none;
+}
+menu button:first-child{
+	padding-bottom: 33px;
+}
+menu button:nth-child(n + 2):not(:last-child){
+	margin-top: 61px;
+}
+menu button:nth-child(n + 5):not(:last-child){
+	margin-top: 59.5px;
+}
+menu button:last-child{
+	margin-top: 220.5px;
+}
+/*
+********************************
+** LEFT BLOCK (main content)  **
+********************************
+*/
+.wraper_left_column{
+	margin-left: 5.3%;
+	width: 46%;
+	min-width: 620px;
+}
+/* ONLY HRADER in LEFT COLUMN!!!!  */
+.wraper_left_column > header{
+	flex: 1 1 100%;
+	display: flex;
+	height: 115px;
+	background: #F5F5F7;
+	border-radius: 14px;
+	margin-top: 31px;
+	padding: 45px 0 0 31.5px;
+}
+.wraper_left_column > header div:first-child{
+ flex: 1 1 55%;
+}
+header div:first-child h1{
+font-family: Baloo Bhai;
+font-style: normal;
+font-weight: normal;
+font-size: 36.5px;
+line-height: 57px;
+color: #000000;
+}
+.wraper_left_column > header div:first-child div{
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 24px;
+	color: #000000;
+	margin-top: -6px;
+}
+.wraper_left_column > header div:last-child{
+	flex: 1 1 45%;
+	position: relative;
+}
+.wraper_left_column > header div:last-child div{
+	position: absolute;
+	top: -76px;
+	left: -5.28%;
+}
+
+/* ARTICLE (spanish_b2) */
+
+.spanish_b2{
+	display: flex;
+	height: 80px;
+	margin-top: 24.09px;
+}
+.spanish_b2_wraper_fon{
+	display: flex;
+	flex: 0 1 80.68%;
+	background: #F5F5F7;
+	border-radius: 14px;
+	align-items: center;
+}
+.spanish_b2_flag{
+	display: flex;
+	width: 64px;
+	height: 64px;
+	border-radius: 12px;
+	background: #FFFFFF;
+  margin-left: 8.5px;
+  justify-content: center;
+  align-items: center;
+}
+.spanish_b2_text{
+	margin-left: 24px;
+	padding-right: 44.97px;
+  font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	line-height: 15px;
+	color: #000000;
+}
+.spanish_b2_text span{
+  font-family: Baloo Bhai;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 26px;
+	color: #000000;
+}
+.spanish_b2_wraper_diagram_and_button{
+	flex-grow: 1;
+	justify-content: space-between;
+	align-items: center;
+	display: flex;
+	padding-right: 23.83px;
+}
+.spanish_b2_diagram{
+	position: relative;
+	width: 40px;
+	height: 40px;
+}
+.spanish_b2_diagram div:first-child{
+	position: absolute;
+	top: 2px;
+	left: 0px;
+}
+.spanish_b2_diagram div:last-child{
+	position: absolute;
+	top: 13.5px;
+	left: 8.5px;
+  font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	line-height: 15px;
+	color: #000000;
+}
+.spanish_b2_button button{
+	width: 120px;
+	height: 40px;
+	background: #000000;
+	border-radius: 8px;
+	border: none;
+  font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 13px;
+	line-height: 15px;
+	color: #FFFFFF;
+}
+.spanish_b2_arrow{
+	display: flex;
+	align-items: center;
+}
+.spanish_b2_arrow button{
+	width: 40px;
+	height: 40px;
+	border: 2px solid #000000;
+	border-radius: 50%;
+	background: #FFFFFF;
+	margin-top: 2px;
+}
+.spanish_b2_arrow button:first-child{
+	margin-left: 24px;
+}
+.spanish_b2_arrow button:last-child{
+	margin-left: 16px;
+}
+.spanish_b2_arrow > button > img{
+ margin: 4.62px 0 0 2.1px;
+}
+
+/* SECTION 1 (header h2 and nav) */
+
+.header_and_nav{
+	display: flex;
+	flex-direction: column;
+	margin-top: 39px;
+}
+.header_and_nav h2{
+  font-family: Baloo Bhai;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 38px;
+	color: #000000;
+}
+.header_and_nav ul{
+	display: flex;
+	margin-top: 16px;
+  font-family: Baloo Bhai;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 26px;
+	color: #000000;
+}
+.header_and_nav ul > li{
+  opacity: 0.3;
+}
+.header_and_nav ul > li:not(:first-child){
+  margin-left: 5%;
+}
+.header_and_nav ul li:nth-child(1){
+	opacity: 1;
+}
+
+/* MAIN (only main block)*/
+main > section:not(:first-child){
+	margin-top: 15px;
+}
+.main_section{
+	display: flex;
+	align-items: center;
+	height: 80px;
+	background: #F5F5F7;
+	border-radius: 14px;
+	margin-top: 12.5px;
+	padding-right: 23.81px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	line-height: 15px;
+	color: #000000;
+}
+.main_section > div:first-child{
+	width: 64px;
+	height: 64px;
+	background: #FFFFFF;;
+	border-radius: 12px;
+	margin-left: 8.5px;
+	text-align: center;
+}
+.main_section > div:first-child img{
+	margin-top: 16px;
+}
+.main_section > div:nth-child(2){
+	margin-left: 24px;
+}
+.main_section > div:nth-child(2) > h3{
+	margin-top: -2px;
+	font-family: Baloo Bhai;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 27px;
+	color: #000000;
+	white-space: nowrap;
+}
+.main_section_wraper_right_block{
+	flex-grow: 1;
+  display:flex;
+	justify-content: flex-end;
+	align-items: center;
+	padding-top: 2px;
+	padding-left:2px;
+}
+.main_section_wraper_right_block > div{
+	display: flex;
+	align-items: center;
+}
+.main_section_wraper_right_block > div:first-child{
+	width: 90px;
+  margin-right: 29px;
+}
+.main_section_wraper_right_block > div:first-child > span{
+	margin-left: 7px;
+}
+.main_section_wraper_right_block > div:nth-child(2){
+	margin-right: 33px;
+}
+.main_section_wraper_right_block > div:nth-child(2) > span{
+	margin-left: 9px;
+}
+.main_section_wraper_right_block button{
+  width: 120px;
+	height: 40px;
+	background: #000000;
+	border-radius: 8px;
+	border: none;
+  font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 13px;
+	line-height: 15px;
+	color: #FFFFFF;
+}
+/*
+********************************
+** RIGHT BLOCK (aside content) **
+********************************
+*/
+.wraper_right_column{
+	margin-left: 4.5%;
+	width: 32.85%;
+	min-width: 440px;
+}
+/* SECTION 1 (search and login) */
+.search_and_login{
+	display: flex;
+	height: 40px;
+	margin-top: 31px;
+  align-items: center;
+}
+.search_and_login input{
+	flex-grow: 1;
+	height: 100%;
+	border: none;
+	border-radius: 8px;
+	background: #F5F5F7;
+	background-image: url(../img/svg/design/search.svg);
+	background-repeat: no-repeat;
+	background-position: 15.81px 50%;
+	margin-left: 3px;
+	padding: 0 15px 0 51.32px;
+
+}
+.wraper_right_column_wraper_bell{
+	display: flex;
+	position: relative;
+	margin-left: 35.5px;
+}
+.wraper_right_column_wraper_bell > div{
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	top: -6.5px;
+	left: 14.63px;
+	width: 14px;
+	height: 14px;
+	background: #F45B5B;
+	border-radius: 50%;
+	padding-bottom: 0.83px;
+  font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10px;
+	line-height: 22px;
+	color: #FFFFFF;
+}
+.search_and_login_wraper_login{
+	display: flex;
+	margin-left: 22px;
+}
+.search_and_login_wraper_login img:first-child{
+	border-radius: 8px;
+}
+.search_and_login_wraper_login img:last-child{
+ margin-left: 7px;
+}
+
+/* SECTION 2 (Course statistics)*/
+
+.course_statistics{
+	display: flex;
+	justify-content: space-between;
+  height: 96.33px;
+	margin: 22.67px 0 0 2px;
+}
+.course_statistics > div{
+	display: flex;
+	align-items: center;
+	width: 208px;
+	background: #F5F5F7;
+	border-radius: 14px;
+}
+.course_statistics > div > div:first-of-type{
+	//flex-basis: 62px;
+  margin: 9px 0 0 36px;
+  font-family: Baloo Bhai;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 64px;
+	line-height: 102px;
+	color: #000000;
+
+}
+.course_statistics > div > div:last-of-type{
+	flex-grow: 1;
+	margin: 11px 0 0 13px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 24px;
+	color: #000000;
+}
+
+/* Your statistics  */
+.your_statistics{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.your_statistics_header{
+	display: flex;
+	flex-direction: column;
+	margin: 40px 0 0 7px;
+}
+.your_statistics_header > div > h2{
+  font-family: Baloo Bhai;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 38px;
+	color: #000000;
+}
+.your_statistics_wraper{
+	display: flex;
+	align-items: center;
+	margin-top: 12px;
+}
+.your_statistics_wraper_header{
+	flex-grow: 1;
+	display: flex;
+  font-family: Baloo Bhai;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 26px;
+	color: #000000;
+}
+.your_statistics_wraper_header > div:nth-child(2){
+	margin-left: 24px;
+  opacity: 0.3;
+}
+.your_statistics_wraper > div:last-child{
+	display: fles;
+	justify-content: center;
+	align-items: center;
+	background: #F5F5F7;
+	border-radius: 8px;
+	padding: 9px 12px 8px 14px;
+}
+.your_statistics_wraper select{
+	border: none;
+	background: #F5F5F7;
+	background-image: url(../img/svg/design/arrow_down.svg);
+	background-repeat: no-repeat;
+	background-position: 90.5% 50%;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+	padding-right: 8px;
+  font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 13px;
+	line-height: 15px;
+	color: #000000;
+}
+.your_statistics > div{
+	display: flex;
+	min-width: 475px;
+	justify-content: center;
+  margin-top: 29px;
+}
+/* advertising */
+.buy_premium_and_win_a_helicopter{
+	display: flex;
+	margin-top: 70px;
+	padding-left: 27px;
+}
+.buy_premium_and_win_a_helicopter div:first-child{
+	flex-basis: 50%;
+}
+.buy_premium_and_win_a_helicopter div:last-child{
+	flex-basis: 50%;
+}
+.buy_premium_and_win_a_helicopter h2{
+	font-family: Baloo Bhai;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 40px;
+	color: #000000;
+}
+.buy_premium_and_win_a_helicopter > div > div{
+  font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 24px;
+	color: #000000;
+}
+.buy_premium_and_win_a_helicopter button{
+  width: 120px;
+	height: 40px;
+	background: #000000;
+	border-radius: 8px;
+	border: none;
+	margin-top: 26px;
+  font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 13px;
+	line-height: 15px;
+
+	color: #FFFFFF;
+}
+.buy_premium_and_win_a_helicopter img{
+	margin: 14px 0 0 36px;
+}
+
