@@ -16,7 +16,7 @@
 */
 .menu_wraper{
   flex: 0 0 132px;
-	position: sticky;
+	/* position: sticky; */
 	height: 200px;
 	top: 0;
 }
