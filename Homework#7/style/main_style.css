@@ -20,7 +20,7 @@
   height: 200px;
   top: 0;
 }
-menu {
+.menu_ul {
   display: flex;
   flex-direction: column;
   height: 809px;
@@ -30,7 +30,7 @@ menu {
   padding-top: 43px;
   text-align: center;
 }
-menu > ul {
+.menu_ul > ul {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -38,10 +38,10 @@ menu > ul {
   text-decoration: none;
   margin-top: 98px;
 }
-menu > ul > li:last-child {
+.menu_ul > ul > li:last-child {
   margin-top: 159px;
 }
-menu > ul > li:hover {
+.menu_ul > ul > li:hover {
   background: #898989;
 }
 /*
