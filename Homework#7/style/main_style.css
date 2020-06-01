@@ -20,7 +20,7 @@
   height: 200px;
   top: 0;
 }
-.pizdec {
+.menu_wraper__p {
   display: flex;
   flex-direction: column;
   height: 809px;
@@ -30,7 +30,7 @@
   padding-top: 43px;
   text-align: center;
 }
-.pizdec > ul {
+.menu_wraper__p > ul {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -38,10 +38,10 @@
   text-decoration: none;
   margin-top: 98px;
 }
-.pizdec > ul > li:last-child {
+.menu_wraper__p > ul > li:last-child {
   margin-top: 159px;
 }
-.pizdec > ul > li:hover {
+.menu_wraper__p > ul > li:hover {
   background: #898989;
 }
 /*
@@ -199,7 +199,6 @@ header div:first-child h1 {
   margin: 4.62px 0 0 2.1px;
 }
 
-
 /* SECTION 1 (header h2 and nav) */
 
 .header_and_nav {
@@ -216,7 +215,6 @@ header div:first-child h1 {
   color: #000000;
 }
 
-
 .header_and_nav ul {
   display: flex;
   margin-top: 16px;
@@ -227,40 +225,37 @@ header div:first-child h1 {
   line-height: 26px;
 }
 .header_and_nav a {
-	text-decoration: none;
-	color: #000000;
-	opacity: 0.3;
+  text-decoration: none;
+  color: #000000;
+  opacity: 0.3;
 }
-.header_and_nav a:hover{
-	opacity: 1;
+.header_and_nav a:hover {
+  opacity: 1;
 }
 .header_and_nav ul > li:not(:first-child) {
   margin-left: 5%;
 }
 
-
-
 /* MAIN (only main block)*/
 main > section:not(:first-child) {
   margin-top: 14px;
- }
+}
 
 /* .figma{
   margin-top:14px;
 
 } */
- .picasa {
-  margin-top:14px;
- }
-  
- .basics_drawing{
-  padding-top:4px;
+.picasa {
+  margin-top: 14px;
 }
 
-.photoshop{
-  padding-top:4px;
+.basics_drawing {
+  padding-top: 4px;
+}
 
- } 
+.photoshop {
+  padding-top: 4px;
+}
 /* .insta{
 
 }
@@ -270,8 +265,7 @@ main > section:not(:first-child) {
  .photoshop{
   padding-top:4px;
 
- } */ 
-
+ } */
 
 .main_section {
   display: flex;
@@ -279,8 +273,8 @@ main > section:not(:first-child) {
   height: 80px;
   background: #f5f5f7;
   border-radius: 14px;
-   margin-top: 14px; 
-   
+  margin-top: 14px;
+
   padding-right: 23.81px;
   font-family: Roboto;
   font-style: normal;
@@ -422,7 +416,6 @@ main > section:not(:first-child) {
   justify-content: space-between;
   height: 96.33px;
   margin: 24.67px 0 0 2px;
-  
 }
 .course_statistics > div {
   display: flex;
@@ -451,11 +444,9 @@ main > section:not(:first-child) {
   line-height: 24px;
   color: #000000;
   padding-right: 2px;
-padding-top: 5px;
-
-
+  padding-top: 5px;
 }
-.courses_in_progres__4{
+.courses_in_progres__4 {
   margin-left: 0px !important ;
 }
 
@@ -470,11 +461,12 @@ padding-top: 5px;
   flex-direction: column;
   margin: 40px 0 0 7px;
 }
-.your_statistics_header img{
+.your_statistics_header img {
   margin-left: 4px;
   margin-top: 2px;
   padding-left: 2px;
-  padding-top: 1px;}
+  padding-top: 1px;
+}
 /* argin-left: 4px;
 margin-top: 2px;
 padding-left: 2px;
