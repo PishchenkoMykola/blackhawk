@@ -16,11 +16,11 @@
 */
 .menu_wraper {
   flex: 0 0 132px;
-  /* position: sticky; */
+  position: sticky;
   height: 200px;
   top: 0;
 }
-.menu_ul {
+.pizdec {
   display: flex;
   flex-direction: column;
   height: 809px;
@@ -30,7 +30,7 @@
   padding-top: 43px;
   text-align: center;
 }
-.menu_ul > ul {
+.pizdec > ul {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -38,10 +38,10 @@
   text-decoration: none;
   margin-top: 98px;
 }
-.menu_ul > ul > li:last-child {
+.pizdec > ul > li:last-child {
   margin-top: 159px;
 }
-.menu_ul > ul > li:hover {
+.pizdec > ul > li:hover {
   background: #898989;
 }
 /*
@@ -99,7 +99,7 @@ header div:first-child h1 {
 .spanish_b2 {
   display: flex;
   height: 80px;
-  margin-top: 24.09px;
+  margin-top: 26.08px;
 }
 .spanish_b2_wraper_fon {
   display: flex;
@@ -199,12 +199,13 @@ header div:first-child h1 {
   margin: 4.62px 0 0 2.1px;
 }
 
+
 /* SECTION 1 (header h2 and nav) */
 
 .header_and_nav {
   display: flex;
   flex-direction: column;
-  margin-top: 39px;
+  margin-top: 37px;
 }
 .header_and_nav h2 {
   font-family: Baloo Bhai;
@@ -214,6 +215,8 @@ header div:first-child h1 {
   line-height: 38px;
   color: #000000;
 }
+
+
 .header_and_nav ul {
   display: flex;
   margin-top: 16px;
@@ -222,29 +225,62 @@ header div:first-child h1 {
   font-weight: normal;
   font-size: 16px;
   line-height: 26px;
-  color: #000000;
 }
-.header_and_nav ul > li {
-  opacity: 0.3;
+.header_and_nav a {
+	text-decoration: none;
+	color: #000000;
+	opacity: 0.3;
+}
+.header_and_nav a:hover{
+	opacity: 1;
 }
 .header_and_nav ul > li:not(:first-child) {
   margin-left: 5%;
 }
-.header_and_nav ul li:nth-child(1) {
-  opacity: 1;
-}
+
+
 
 /* MAIN (only main block)*/
 main > section:not(:first-child) {
-  margin-top: 15px;
+  margin-top: 14px;
+ }
+
+/* .figma{
+  margin-top:14px;
+
+} */
+ .picasa {
+  margin-top:14px;
+ }
+  
+ .basics_drawing{
+  padding-top:4px;
 }
+
+.photoshop{
+  padding-top:4px;
+
+ } 
+/* .insta{
+
+}
+.basics_drawing{
+  padding-top:4px;
+}
+ .photoshop{
+  padding-top:4px;
+
+ } */ 
+
+
 .main_section {
   display: flex;
   align-items: center;
   height: 80px;
   background: #f5f5f7;
   border-radius: 14px;
-  margin-top: 12.5px;
+   margin-top: 14px; 
+   
   padding-right: 23.81px;
   font-family: Roboto;
   font-style: normal;
@@ -385,7 +421,8 @@ main > section:not(:first-child) {
   display: flex;
   justify-content: space-between;
   height: 96.33px;
-  margin: 22.67px 0 0 2px;
+  margin: 24.67px 0 0 2px;
+  
 }
 .course_statistics > div {
   display: flex;
@@ -395,8 +432,8 @@ main > section:not(:first-child) {
   border-radius: 14px;
 }
 .course_statistics > div > div:first-of-type {
-  flex-basis: 62px;
-  margin: 9px 0 0 36px;
+  flex-basis: 55px;
+  margin: 9px 0 0 37px;
   font-family: Baloo Bhai;
   font-style: normal;
   font-weight: normal;
@@ -406,13 +443,20 @@ main > section:not(:first-child) {
 }
 .course_statistics > div > div:last-of-type {
   flex-grow: 1;
-  margin: 11px 0 0 13px;
+  margin: 7px 0 0 7px;
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 24px;
   color: #000000;
+  padding-right: 2px;
+padding-top: 5px;
+
+
+}
+.courses_in_progres__4{
+  margin-left: 0px !important ;
 }
 
 /* Your statistics  */
@@ -426,6 +470,15 @@ main > section:not(:first-child) {
   flex-direction: column;
   margin: 40px 0 0 7px;
 }
+.your_statistics_header img{
+  margin-left: 4px;
+  margin-top: 2px;
+  padding-left: 2px;
+  padding-top: 1px;}
+/* argin-left: 4px;
+margin-top: 2px;
+padding-left: 2px;
+padding-top: 1px; */
 .your_statistics_header > div > h2 {
   font-family: Baloo Bhai;
   font-style: normal;
@@ -480,7 +533,7 @@ main > section:not(:first-child) {
 }
 .your_statistics > div {
   display: flex;
-  min-width: 475px;
+  min-width: 482px;
   justify-content: center;
   margin-top: 29px;
 }
@@ -511,6 +564,7 @@ main > section:not(:first-child) {
   font-size: 16px;
   line-height: 24px;
   color: #000000;
+  padding-top: 2px;
 }
 .buy_premium_and_win_a_helicopter button {
   width: 120px;
